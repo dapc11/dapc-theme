@@ -1,0 +1,27 @@
+{
+  "name": "dapc-theme",
+  "displayName": "dapc Theme",
+  "description": "A custom VS Code theme based on my personal color preferences.",
+  "version": "0.0.1",
+  "publisher": "dapc11",
+  "engines": {
+    "vscode": "^1.50.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dapc11/dapc-theme"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "dapc Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dapc-color-theme.json"
+      }
+    ]
+  }
+}
+
